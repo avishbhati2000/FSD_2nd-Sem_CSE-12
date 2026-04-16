@@ -24,3 +24,15 @@ console.log(mixedArray[4]); // Output: [1, 2, 3]
 let newarray = [1, 2, 3, 4, 5];
 let squaredArray = newarray.map(num=> num * num);
 console.log(squaredArray); // Output: [1, 4, 9, 16, 25]
+
+function greet( ) {
+    console.log("Hello, World!");
+}greet(); // Output: Hello, World!
+
+function multiply(a,b) {
+    return a * b;
+}
+console.log(multiply(5, 3)); // Output: 15
+
+let add = (a,b) => a + b; //Using arrow function syntax
+console.log(add(5, 3)); // Output: 8
