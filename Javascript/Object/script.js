@@ -36,3 +36,11 @@ console.log(multiply(5, 3)); // Output: 15
 
 let add = (a,b) => a + b; //Using arrow function syntax
 console.log(add(5, 3)); // Output: 8
+
+let evenNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let filteredNumbers = evenNumbers.filter(num => num % 2 === 0);
+console.log(filteredNumbers); // Output: [2, 4, 6, 8, 10]
+
+let sum= [1,2,3,4,5];
+let total = sum.reduce((accumulator,currentValue) => accumulator + currentValue,0);
+console.log(total); // Output: 15
